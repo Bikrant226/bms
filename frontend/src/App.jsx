@@ -2,6 +2,8 @@ import React from "react";
 import Header from "./Components/Header";
 import Sidebar from "./Components/Sidebar";
 import Dashboard from "./Components/Dashboard";
+import BuyForm from "./Components/BuyForm";
+import { Route, Routes } from "react-router";
 
 function App() {
   return (
@@ -12,7 +14,10 @@ function App() {
           <Sidebar />
         </div>
         <div className="w-[78vw]">
-          <Dashboard />
+          <Routes>
+            <Route index element={<Dashboard />} />
+            <Route path="buy" element={<BuyForm />} />
+          </Routes>
         </div>
       </div>
     </div>

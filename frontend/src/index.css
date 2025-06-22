@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
+@tailwind utilities;
+
+.sidebar-link {
+  @apply block border border-white rounded-md hover:bg-[var(--link-bg-color)] text-blue-500 hover:text-white font-semibold p-2 mb-2;
+}
+
 :root {
   --brand-color: #fcfcfc;
   --padding-lg: 2rem;
   --border-color: #dcd8d8;
+  --link-bg-color: #3b82f6;
+  --link-font-color: #283dcc;
 }
