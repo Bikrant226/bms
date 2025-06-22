@@ -6,7 +6,7 @@
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/.apivcs": true,
-    "**/.gitignore": true,
+    "**/.gitignore": false,
     "**/.designer.json": true,
     "**/.exchange.xml": true,
     "**/.vscode": true,
