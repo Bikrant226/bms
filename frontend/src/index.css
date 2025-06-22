@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+:root {
+  --brand-color: #fcfcfc;
+  --padding-lg: 2rem;
+  --border-color: #dcd8d8;
+}
